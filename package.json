@@ -1,0 +1,20 @@
+{
+  "name": "string.prop",
+  "version": "1.0.0",
+  "description": "Find properties on objects by using strings",
+  "main": "app.js",
+  "author": "Sanchay Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "homepage": "https://github.com/BraveFart69/string.prop#readme",
+  "keywords": [
+    "objects",
+    "strings",
+    "object properties"
+  ]
+}
