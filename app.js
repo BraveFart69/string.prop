@@ -23,8 +23,6 @@ function stringProp(str, obj, bool = false) {
   }
 }
 
-console.log(stringProp("", { a: 1 }));
-
 process.on("exit", (code) => {
   if (code !== 0)
     console.log(` The property was not found on the object `.bgRed.white);
