@@ -2,7 +2,7 @@
 
 ### Applications
 
-The purpose of this package is to return a property or properties of an object from a string . It could be used when you are expecting an user input of the properties of an object as a string .
+The purpose of this package is to return a property or properties of an object from a string . It could be used when you are expecting an user input of the properties of an object as a string.
 
 ### Usage
 
@@ -38,6 +38,8 @@ stringProp("foo.a", obj, true); // returns true
 stringProp("foo.c", obj, true); // returns false
 ```
 
-### IMPORTANT NOTE
+### IMPORTANT NOTES
 
-**The package will exit the process if the properties provided are not found on the object GIVEN THAT THE 3rd ARGUMENT ISN'T PROVIDED AS TRUE OR A TRUTHY VALUE.**
+**1. The package will exit the process if the properties provided are not found on the object GIVEN THAT THE 3rd ARGUMENT ISN'T PROVIDED AS TRUE OR A TRUTHY VALUE.**
+
+**2. Only the dot syntax is supported , the package will not work if you try to access the properties of the object by using the square bracket syntax.**
